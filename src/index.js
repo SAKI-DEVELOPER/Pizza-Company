@@ -160,7 +160,7 @@ function Order({ clossedHour, openHour, hour }) {
 function Footer() {
   let hour = new Date().getHours();
   hour = hour.toString();
-  let clossedHour = 3;
+  let clossedHour = 22;
   let openHour = 8;
 
   return (
